@@ -1,0 +1,70 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #e31b23;
+}
+
+.header {
+    padding-top: 30px;
+    text-align: center;
+    background: #e31b23;
+    height: 120px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+.content {
+    background: #bbb;
+    height: 1300px;
+
+}
+
+.form {
+    padding-top: 50px;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+}
+
+.recent-tracks {
+    margin-top: 20px;
+}
+
+.recent-track {
+    margin-top: 60px;
+}
+
+.recent-track img {
+    float: left;
+    margin-right: 30px;
+}
+
+.top-artists {
+    margin-top: 100px;
+}
+
+.top-artist {
+    margin-top: 60px;
+}
+
+.top-artist img {
+    float: left;
+    margin-right: 30px;
+}

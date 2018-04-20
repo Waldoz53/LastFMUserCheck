@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Last.fm User Lookup</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Last.fm User Lookup</h1>
+        </div>
+
+        <div class="content">
+            <div class="form">
+                <h3>Enter Last.fm Username</h3>
+                <p>Example: Waldo53</p>
+                <input type="text" id="inputUser"><br><br>
+                <button type="button" onclick="getRecentTracks()">Recent Tracks</button>
+                <button type="button" onclick="getTopArtists()">Top Artists</button>
+            </div>
+            <div class="recent-tracks wrapper">
+                <h1>Recent Tracks</h1>
+                <div class="recent-track wrapper" id='recentTracks'>
+                </div>
+            </div>
+            <div class="top-artists wrapper">
+                <h1>Top Artists</h1>
+                <div class="top-artist wrapper" id='topArtists'>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src='./lastfm.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </body>
+</html>
